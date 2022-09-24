@@ -1,0 +1,40 @@
+[09-Sep-2022 17:12:48 America/Sao_Paulo] PHP Warning:  require(processamento_dados/cURL.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/telefonia/processamneto_dados.php on line 2
+[09-Sep-2022 17:12:48 America/Sao_Paulo] PHP Warning:  require(processamento_dados/cURL.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/telefonia/processamneto_dados.php on line 2
+[09-Sep-2022 17:12:48 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'processamento_dados/cURL.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/telefonia/processamneto_dados.php on line 2
+[12-Sep-2022 10:04:30 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/processamneto_dados.php on line 17
+[12-Sep-2022 10:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/processamneto_dados.php on line 17
+[12-Sep-2022 10:11:14 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/processamneto_dados.php on line 17
+[12-Sep-2022 10:15:13 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[12-Sep-2022 10:18:29 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[12-Sep-2022 10:19:40 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[12-Sep-2022 10:20:19 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[12-Sep-2022 10:21:45 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[12-Sep-2022 10:26:15 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[12-Sep-2022 10:28:02 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[12-Sep-2022 10:29:46 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[12-Sep-2022 10:30:01 America/Sao_Paulo] PHP Notice:  Undefined index: descricao in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[20-Sep-2022 11:07:45 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 15
+[20-Sep-2022 11:07:45 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 16
+[20-Sep-2022 11:07:45 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[20-Sep-2022 11:07:45 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/telefonia/dados.php on line 18
+[20-Sep-2022 11:07:45 America/Sao_Paulo] PHP Notice:  Undefined index: desc in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[20-Sep-2022 11:07:50 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 15
+[20-Sep-2022 11:07:50 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 16
+[20-Sep-2022 11:07:50 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[20-Sep-2022 11:07:50 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/telefonia/dados.php on line 18
+[20-Sep-2022 11:07:50 America/Sao_Paulo] PHP Notice:  Undefined index: desc in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[20-Sep-2022 11:08:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 15
+[20-Sep-2022 11:08:05 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 16
+[20-Sep-2022 11:08:05 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[20-Sep-2022 11:08:05 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/telefonia/dados.php on line 18
+[20-Sep-2022 11:08:05 America/Sao_Paulo] PHP Notice:  Undefined index: desc in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[20-Sep-2022 11:12:47 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[20-Sep-2022 11:12:47 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 18
+[20-Sep-2022 11:12:47 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[20-Sep-2022 11:12:47 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/telefonia/dados.php on line 20
+[20-Sep-2022 11:12:47 America/Sao_Paulo] PHP Notice:  Undefined index: desc in /home/gopccompro/public_html/telefonia/dados.php on line 21
+[20-Sep-2022 11:13:04 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 17
+[20-Sep-2022 11:13:04 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/telefonia/dados.php on line 18
+[20-Sep-2022 11:13:04 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/telefonia/dados.php on line 19
+[20-Sep-2022 11:13:04 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/telefonia/dados.php on line 20
+[20-Sep-2022 11:13:04 America/Sao_Paulo] PHP Notice:  Undefined index: desc in /home/gopccompro/public_html/telefonia/dados.php on line 21

@@ -1,0 +1,1726 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+    
+}
+
+.imgmobile{
+    display: none;
+}
+
+.FormPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+body{
+
+    max-width: 1920px;
+    overflow-x : hidden;
+}
+
+html{
+    overflow-x : hidden;
+}
+
+.whitecolor{
+    color: white;
+}
+
+.element1{
+ margin-top: 30px !important;
+}
+
+
+
+
+.itemView{
+    height: 5px ;
+    background-color: #0dcaf0;
+    width: calc(100%);
+}
+
+.element2{
+    margin-top: 30px !important; 
+
+   
+}
+
+.conteinerHead{
+    margin-top: 100px;
+}
+
+.conteinerHead2{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 4px solid #0dcaf0;
+}
+.colorText{
+    color: white !important;
+}
+
+.bg-nav{
+    background-color: #0095ff;
+}
+
+
+.starFront{
+    background-color: #b4afaf;
+}
+
+
+.logoPC{
+    width: 190px;
+    height: 45px;
+
+}
+
+
+#images-logo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+.buttons{
+    margin-top: 50px;
+}
+
+.button1{
+    width: 310px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0dcaf0;
+    margin-top: 70px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+
+
+.borderbutton{
+    border-bottom: 20px solid #0083e4 !important;
+}
+
+.button2{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+
+}
+
+.button3{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+    
+}
+
+.button4{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.button5{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+
+
+#logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    right: 40px;
+
+}
+
+
+.PClOGO{
+    width: 380px;
+    height: 120px;
+    margin-top: 160px;
+    position: relative;
+    bottom: 100px;
+}
+
+.parceirologo{
+    width: 390px;
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+     font-size: 50px;
+
+}
+
+.texto{
+    margin-bottom: 10px;
+    font-size: 19px;
+    line-height: px;
+}
+
+.visivel{
+    display: flex;
+}
+
+.invisivel{
+    display: none !important;
+}
+
+#carroselClick{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#Um{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+}
+#Dois{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+
+}
+#Tres{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+}
+#Quatro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+}
+
+
+.textCar{
+   text-align: left;
+   margin-left: 400px;
+   margin-top: 80px;
+   font-size: 18px;
+}
+
+
+
+.FotoCar1{
+    width: 550px;
+    height: 480px;
+    margin-top: 26px;
+}
+.FotoCar2{
+    width: 550px;
+    height: 480px;
+    margin-top: 26px;
+    margin-left: 100px;
+}
+.FotoCar3{
+    width: 550px;
+    height: 480px;
+    margin-top: 26px;
+}
+.FotoCar4{
+    width: 550px;
+    height: 480px;
+    margin-top: 26px;
+}
+
+#carrosel{
+    background-color: #ecf4f9;
+    width: 100vw;
+    max-width: 1920px;
+    height: 500px;
+    margin-top: 10px;
+    border-top: 2px solid #212529;
+    border-bottom: 2px solid #212529;
+
+}
+
+#textDiv{
+    margin-left: 80px;
+}
+.tittleDesc{
+    color: #0083e4;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+}
+
+.tittleDesc2{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    width: 600px;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+span{
+    color: #000000;
+    font-size: 12px;
+    
+}
+
+.listIcon{
+    margin-top: 30px;
+
+}
+.bi-caret-right{
+    color: white;
+}
+
+
+.imagestyle{
+    width: 400px;
+    height: 400px;
+    margin-top: 90px;
+}
+
+.titulo-4{
+    color:#212529;
+    font-size: 40px;
+    line-height: 63px;
+    margin-top: 150px;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    border-bottom: 3px solid black;
+
+    
+}
+
+.officeCartoon{
+    width: 530px;
+    height: 390px;
+    
+}
+
+.position-flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 75px;
+
+}
+
+.text{
+    font-size: 15px;
+    color: #0083e4;
+    margin-left: 30px;
+   
+}
+
+.textoDesc{
+        font-size: 16px;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+    background-color: #0dcaf0;
+  }
+  
+  .content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Animation */
+  
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+  }
+  
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+
+  .card2{
+    width: 230px;
+    background-color: #ffffff;
+    height: 400px;
+    margin-top:0px;
+    box-shadow: -10px 5px  #0ba693;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteinerFour{
+    width: 100%;
+    height: 530px;
+    background-color: #ecf4f9;
+
+
+  }
+
+  .img2{
+    width: 95px;
+    height: 115px;
+    position: relative;
+    top: -20px;
+ 
+  }
+
+  .titulocard{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .textCard{
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+    height: 440px;
+    line-height: 17px;
+  }
+
+ .cardsIcon{
+    padding-top: 60px;
+ }
+
+ .descCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.navbar{
+    z-index: 1000;
+}
+ 
+
+footer{
+    position: relative;
+    top: -300px;
+
+}
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+  
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  
+  /* /* Shrinking for mobile */
+  @media (max-width: 768px) {
+    .waves {
+      height: 40px;
+      min-height: 40px;
+    }
+  
+    .content {
+      height: 30vh;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+.conteinerLIST{
+    height: 600px;
+    width: 100%;
+    background-color: #0dcaf0;
+}
+
+.pcCom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logopc2{
+    width: 400px;
+    height: 130px;
+    padding-top: 30px;
+    
+}
+
+.linkclass{
+    background-color: #0ba693;
+    width: 190px;
+    height: 70px;
+    z-index: 1000;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+   
+}
+
+
+.formdiv{
+    position: relative;
+    margin-top: 20px;
+
+
+    
+}
+
+.stringcontenttittle{
+    width: 650px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    border-bottom: 4px solid #0083e4;
+    padding-bottom: 30px;
+}
+
+.positionstring{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageheader{
+    width: 1200px;
+    height: 900px;
+  
+}
+
+
+.linkclass a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+.imgheader{
+    position: relative;
+    bottom: 90px;
+}
+
+.textinput{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.textpc{
+   text-align: left;
+    width: 700px;
+    margin-right: 040px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+
+.desc{
+    height: 100px;
+    margin-top: 20px;
+}
+
+form{
+    background-color: #dcdcdc;
+    width: 600px; 
+    height: 385px; 
+    padding: 40px;
+}
+
+.necessity{
+    height: 100px  !important;
+    margin-bottom: 30px;
+}
+
+
+@media (min-width:1280px) and (max-width: 1400px){
+
+    .imgheader{
+        width: 620px;
+        height: 420px;
+    }
+    .titulo{
+        font-size: 50px;
+    }
+
+    .texto{
+        font-size: 16px;
+    }
+
+   
+
+}
+
+@media (min-width:1180px) and (max-width: 1280px){
+
+    .imgheader{
+        width: 620px;
+        height: 420px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+
+    
+    
+
+    .FotoCar1{
+        width: 630px;
+        height: 530px;
+        padding-bottom: 50px;
+    }
+
+    .textCar{
+       text-align: left;
+       margin-left: 100px;
+       margin-top: 80px;
+       font-size: 18px;
+    }
+
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+    .button2{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    
+    }
+    
+    .button3{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+        
+    }
+    
+    .button4{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+    
+    
+    .button5{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+}
+
+
+@media (min-width:990px) and (max-width: 1180px){
+    .imgheader{
+        width: 580px;
+        height: 400px;
+    }
+    .titulo{
+        font-size: 36px;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+
+    
+   iframe{
+    width: 1020px;
+    height: 820px;
+   }
+
+    .FotoCar1{
+        width: 630px;
+        height: 530px;
+        padding-bottom: 50px;
+    }
+
+    .textCar{
+       text-align: left;
+       margin-left: 100px;
+       margin-top: 80px;
+       font-size: 18px;
+    }
+
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+    
+    .button1{
+        width: 130px;
+        height: 50px;
+        border: none;
+        border-radius: 15px;
+        background-color: #0dcaf0;
+        margin-top: 30px;
+        
+    }
+
+    .button2{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    
+    }
+    
+    .button3{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+        
+    }
+    
+    .button4{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+    
+    
+    .button5{
+        width: 220px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+ 
+
+}
+
+
+
+@media (min-width:800px) and (max-width: 990px){
+
+    .imgheader{
+        width: 580px;
+        height: 400px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+
+    
+    iframe{
+        width: 330px;
+        height: 290px;
+        margin-top: 50px;
+    }
+
+    .FotoCar1{
+        width: 430px;
+        height: 330px;
+        padding-bottom: 20px;
+        margin-top: 130px;
+        
+    }
+
+    .FotoCar2{
+        width: 380px;
+        height: 330px;
+        padding-bottom: 50px;
+        margin-top: 130px;
+    }
+
+    .FotoCar3{
+        width: 390px;
+        height: 380px;
+        padding-bottom: 50px;
+        margin-top: 177px;
+    }
+
+    .FotoCar4{
+        width: 350px;
+        height: 330px;
+        padding-bottom: 50px;
+        margin-top: 130px;
+    }
+
+    .textCar{
+       text-align: left;
+       margin-left: 100px;
+       margin-top: 80px;
+       font-size: 18px;
+    }
+
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+   
+ 
+.button1{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0dcaf0;
+    margin-top: 30px;
+    
+}
+
+.button2{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+
+}
+
+.button3{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+    
+}
+
+.button4{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.button5{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.tittleDesc2{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.site-preview iframe{
+    display: none;
+}
+
+.linkclass{
+    background-color: #0ba693;
+    width: 190px;
+    height: 70px;
+    z-index: 1000;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+   
+}
+
+}
+
+
+@media (min-width:775px) and (max-width: 800px){
+
+    .imgheader{
+        width: 580px;
+        height: 400px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+
+    .texto{
+        font-size: 14px;
+    }
+
+    
+    iframe{
+        width: 330px;
+        height: 290px;
+        margin-top: 70px;
+    }
+
+    .FotoCar1{
+        width: 430px;
+        height: 330px;
+        padding-bottom: 20px;
+        margin-top: 130px;
+        
+    }
+
+    .FotoCar2{
+        width: 380px;
+        height: 330px;
+        padding-bottom: 50px;
+        margin-top: 130px;
+    }
+
+    .FotoCar3{
+        width: 390px;
+        height: 380px;
+        padding-bottom: 50px;
+        margin-top: 177px;
+    }
+
+    .FotoCar4{
+        width: 350px;
+        height: 330px;
+        padding-bottom: 50px;
+        margin-top: 130px;
+    }
+
+    .textCar{
+       text-align: left;
+       margin-left: 100px;
+       margin-top: 80px;
+       font-size: 18px;
+    }
+
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+   
+ 
+.button1{
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0dcaf0;
+    margin-top: 30px;
+    
+}
+
+.button2{
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+
+}
+
+.button3{
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+    
+}
+
+.button4{
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.button5{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.tittleDesc2{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.site-preview iframe{
+    display: none;
+}
+
+.linkclass{
+    background-color: #0ba693;
+    width: 190px;
+    height: 70px;
+    z-index: 1000;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+   
+}
+
+}
+
+
+@media (min-width:576px) and (max-width: 775px){
+    .imgmobile{
+        display: flex;
+        width: 700px;
+        height: 250px;
+    }
+
+    .imgheader{
+        display: none;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+
+    .texto{
+        font-size: 14px;
+        text-align: start;
+    }
+
+    
+    iframe{
+        display: flex;
+        width: 430px;
+        margin: 90px auto;
+    }
+
+    .FotoCar1{
+        width: 280px;
+        height: 230px;
+        padding-bottom: 20px;
+        margin-top: 100px;
+        
+    }
+
+    .FotoCar2{
+        width: 280px;
+        height: 260px;
+        padding-bottom: 50px;
+        margin-top: 100px;
+    }
+
+    .FotoCar3{
+        width: 280px;
+        height: 280px;
+        padding-bottom: 50px;
+        margin-top: 100px;
+    }
+
+    .FotoCar4{
+        width: 280px;
+        height: 280px;
+        padding-bottom: 50px;
+        margin-top: 100px;
+    }
+
+    .textCar{
+       text-align: left;
+       margin-left: 100px;
+       margin-top: 80px;
+       font-size: 18px;
+    }
+
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+   
+ 
+.button1{
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0dcaf0;
+    margin-top: 30px;
+    display: none;
+}
+
+.button2{
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+
+}
+
+.button3{
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+    
+}
+
+.button4{
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.button5{
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    box-shadow: 0px 5px black;
+}
+
+
+.tittleDesc2{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.site-preview iframe{
+    display: none;
+}
+
+.linkclass{
+    background-color: #0ba693;
+    width: 190px;
+    height: 70px;
+    z-index: 1000;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+   
+}
+
+.tittleDesc{
+    color: #0083e4;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.textoDesc{
+    font-size: 12px;
+}
+
+
+.imagestyle{
+    width: 260px;
+    height: 260px;
+    margin-top: 150px;
+}
+
+.tittleDesc2{
+    font-size: 30px;
+}
+.listIcon ul li p {
+    font-size: 5px;
+}
+
+.textspan{
+    margin-top: 60px;
+    width: 520px;
+    text-align: center;
+}
+.womanModel{
+    padding-left: 100px;
+}
+
+.titulo{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+}
+
+.card2{
+    width: 200px;
+    background-color: #ffffff;
+    height: 400px;
+    box-shadow: -10px 5px  #0ba693;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textpc{
+    text-align: center;
+    width: 400px;
+  }
+  .formdiv{
+    position: relative;
+    top: 50px;
+
+    
+}
+.texto{
+    text-align: start;
+    margin-left: 30px;
+}
+}
+
+
+
+@media (min-width:425px) and (max-width: 576px){
+
+    .imgmobile{
+        display: flex;
+        width: 425px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .texto{
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .imgheader{
+        display: none;
+    }
+    .formdiv{
+        position: relative;
+        top: 20px;
+    
+        
+    }
+    
+    .button1{
+        width: 160px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        background-color: #0dcaf0;
+        margin-top: 30px;
+        margin-left: 150px;
+        display: none;
+    
+    }
+    
+    iframe{
+        display: flex;
+        width: 350px;
+        height: 300px;
+margin: 95px auto;
+    }
+
+    .button2{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    
+    }
+    
+    .button3{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+        
+    }
+    
+    .button4{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+    
+    
+    .button5{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+    .tittleDesc{
+        color: #0083e4;
+        margin-bottom: 20px;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        
+    }
+
+    #Um{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+    }
+    #Dois{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    
+    }
+    #Tres{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    }
+    #Quatro{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    }
+
+    .textCar{
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 80px;
+        font-size: 10px;
+        width: 240px;
+        height: 20px;
+     }
+
+     .FotoCar1{
+        width: 230px;
+        height: 170px;
+        margin-top: 45px;
+        position: relative;
+        right: -260px;
+    }
+    
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        margin-top: 60px;
+        width: 400px;
+    }
+
+    .imagestyle{
+        display: none;
+    }
+
+    .size{
+        font-size: 30px;
+        width: 300px;
+        text-align: center;
+      
+    }
+
+
+    
+
+    .conteinerFour{
+        display: none;
+    }
+
+    .site-preview{
+        display: none;
+    }
+
+    .linkclass{
+        display: none;
+    }
+
+    .textpc{
+        width: 400px;
+     
+    }
+    
+        .FotoCar1{
+        width: 230px;
+        height: 170px;
+        margin-top: 45px;
+        position: relative;
+        right: -190px;
+    }
+    
+     .FotoCar2{
+            width: 210px;
+            height: 150px;
+            margin-top: 200px;
+            position: relative;
+            right: 80px;
+    }
+    
+     .FotoCar3{
+       width: 230px;
+        height: 200px;
+        margin-top: 200px;
+        position: relative;
+        right: 2px;
+    }
+    
+     .FotoCar4{
+            width: 230px;
+            height: 190px;
+            margin-top: 170px;
+            position: relative;
+            right: -30px;
+    }
+    
+    
+    .textoDesc {
+    font-size: 15px;
+    
+}
+
+
+.textspan{
+    width: 400px;
+}
+}
+
+
+
+@media(max-width:425px){
+
+    .textspan{
+        width: 280px;
+        font-size: 15px;
+    }
+    .imgmobile{
+        display: flex;
+        width: 376px;
+        height: 150px;
+    }
+    .texto{
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .imgheader{
+        display: none;
+    }
+
+    .textoDesc {
+    font-size: 14px;
+}
+    .button1{
+        width: 160px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        background-color: #0dcaf0;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: none;
+    }
+    
+    iframe{
+        display: flex;
+        width: 290px;
+        height: 300px;
+        margin: 95px auto;
+    }
+
+    .button2{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    
+    }
+    
+    .button3{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+        
+    }
+    
+    .button4{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+    
+    
+    .button5{
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: #e1e2e4;
+        box-shadow: 0px 5px black;
+    }
+    .tittleDesc{
+        color: #0083e4;
+        margin-bottom: 20px;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        
+    }
+
+    #Um{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+    }
+    #Dois{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    
+    }
+    #Tres{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    }
+    #Quatro{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+    }
+
+    .textCar{
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 80px;
+        font-size: 18px;
+        width: 190px;
+        height: 30px;
+     }
+
+     .FotoCar1{
+        width: 230px;
+        height: 170px;
+        margin-top: 45px;
+        position: relative;
+        right: -190px;
+    }
+    
+     .FotoCar2{
+            width: 210px;
+            height: 150px;
+            margin-top: 200px;
+            position: relative;
+            right: 80px;
+    }
+    
+     .FotoCar3{
+       width: 230px;
+        height: 200px;
+        margin-top: 200px;
+        position: relative;
+        right: 2px;
+    }
+    
+     .FotoCar4{
+            width: 230px;
+            height: 190px;
+            margin-top: 170px;
+            position: relative;
+            right: -30px;
+    }
+    .tittleDesc2{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        margin-top: 60px;
+        width: 400px;
+    }
+
+    .imagestyle{
+        display: none;
+    }
+
+    .size{
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .conteinerFour{
+        display: none;
+    }
+
+    .site-preview{
+        display: none;
+    }
+
+    .linkclass{
+        display: none;
+    }
+
+    
+.formdiv{
+    position: relative;
+    top: 50px;
+
+
+    
+}
+}

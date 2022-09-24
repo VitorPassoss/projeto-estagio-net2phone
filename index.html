@@ -1,0 +1,527 @@
+<?php 
+  session_start();
+  $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+$_SESSION['url'] = $url;
+
+
+?><!doctype html>
+<html lang="PT-BT">
+  <head>
+     
+     <meta name="description" content="landing page da net2phone, net2phone manaus">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Net2Phone | PCCOM PRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="componentes/logo.jpg">
+    <style type="text/css" id="cookies-and-content-security-policy-css-custom"></style><link rel="icon" href="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" sizes="32x32" />
+    <link rel="icon" href="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" />
+    <meta name="msapplication-TileImage" content="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+  <!-- Navegação-->
+    <div class="startFront ">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light " aria-label="Eleventh navbar example">
+            <div class="container-fluid ">
+              <a class="navbar-brand " href="#">
+                <img class="logoPC"src="componentes/LOGOMARCA PCCOM PRO 2022 SEM FUNDO.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav list-nav mr-auto me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active bg-info colorText" aria-current="page" href="#head">Net2Phone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#pccom">Pccom Pro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#forms">Quero Conhecer</a>
+                  </li>
+                 
+               
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+      </div>
+ <!-- parte de cima com imagem e texto -->
+      <div class="conteinerHead container-fluid" id="head">
+            <main class="row">
+                <div class="col-lg-1 .col-sm-1 col-md-1  col-sm-2 col-xl-2 col-xxl-2 "></div>
+                
+                <div class="element1  col-md-5 col-sm-12 col-lg-4 col-xl-4 col-xxl-4 col-12 ">
+                       <p>
+                            <h1 class="titulo">A Telefonia empresarial em nuvem mais confiável!</h1>
+                        </p>
+                       <p class="texto">
+                        Sua empresa precisa mais do que um simples serviço <br>
+                        telefônico,
+                        a telefonia em nuvem é a revolução da comunicação para as empresas.
+                        Liberamos seu potencial para fazer negócios de alta qualidade,
+                        fidelizar clientes, aumentar a produtividade de uma maneira simples e fácil.
+                       </p>
+                       <div class="buttons">
+                            <a class="button1" href="https://api.whatsapp.com/send?phone=559239950150">Entre Em Contato <i class="bi bi-whatsapp"></i></a> 
+                        </div>
+                </div>
+                  <div class=" element2 col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4">
+                      
+                    <img class="imgheader"src="componentes/home-security.jpg" alt="">
+                    <img class="imgmobile" src="componentes/mobilebanner.jpg">
+      
+                  </div>
+                <div class="col col-lg-1  col-md-2  col-sm-2  col-xl-2 col-xxl-2">
+                        
+                  
+                   
+                </div>
+            </main>
+        </div>
+     
+      <div class="positionstring">
+        <h1 class="stringcontenttittle">Fale com nosso time de <span style="color: #0ba693; font-size: 30px;">especialistas.</span> </h1>
+      </div>
+<!-- -->
+        <div id="forms" class="formdiv conteiner-fluid">
+          <div class="row">
+              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2"></div>
+              <form class="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8"  method="post" action="dados.php" onsubmit="cadastraUsuario()">
+                
+                <label for="nome">Nome:</label>
+                <input name="nome" id="nome" class="form-control" type="text" required>
+                <label for="email">E-mail:</label> 
+                <input name="email" id="email" class="form-control" type="email" required>
+                <label for="telefone">Telefone:</label>
+                <input name="telefone" id="telefone" class="form-control" type="text" required>
+                <label for="desc">Sua Mensagem:</label>
+                <input name="desc" id="desc" class="form-control desc" type="text" required>
+                <br><br>
+            
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+            
+            
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+              
+              <iframe width="600" height="395" src="https://www.youtube.com/embed/MB8XrrErnzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 .col-md-2 col-sm-0 col-0"></div>
+      </div>
+            </div>
+
+
+      <!-- carrosel com botoes e imagens -->
+     <div id="carroselClick">
+        <div id="buttondiv1">
+            <button type="button" class="button2 " onClick="TrocarItem(0)">Comunique</button>
+            <div id="item-now " class="" ></div>
+        </div>
+        <div id="buttondiv2">
+            <button type="button" class="button3 " onClick="TrocarItem(1)">Analise</button>
+            <div id="item-now" class="" ></div>
+        </div>
+        <div id="buttondiv3">
+            <button type="button" class="button4 " onClick="TrocarItem(2)">Conecte</button>
+            <div id="item-now" class="" ></div>
+        </div>
+        <div id="buttondiv4">
+            <button type="button" class="button5 " onClick="TrocarItem(3)">Controle</button>
+            <div id="item-now" class="" ></div>
+        </div>
+     </div>
+    
+     <div id="carrosel">
+      
+        <div id="Um" class="banner">
+            <div class="textCar">
+                <h1 class="tittleDesc">Comunique-se com Qualidade</h1>
+              <p class="textoDesc">
+                Tecnologia de desenvolvimento próprio, a telefonia em
+                nuvem da net2phone utiliza sua internet para efetuar e
+                receber as chamadas em alta qualidade. Com pacotes
+                ilimitados e tarifados, chamadas para todo o Brasil e 26
+                países, atendemos a necessidade da sua empresa.
+                </p> 
+            </div>
+            <div >
+                    <img  class="FotoCar1" src="componentes/net2phone.png" alt="">
+            </div>
+        
+        </div>
+        <div id="Dois" class="banner invisivel">
+            <div class="textCar">
+              <h1 class="tittleDesc">Analise sua
+                produtividade</h1>
+            <p class="textoDesc">
+                A análise das chamadas se tornou mais completa
+                com informações poderosas, saiba em que horário seu
+                negócio recebe mais ligações, qual vendedor marca um
+                maior número de visitas e muito mais. Acompanhe a fila
+                de chamadas e performance de seus atendentes para
+                melhor atender seus clientes.
+            </p> 
+            </div>
+            <div >
+                <img  class="FotoCar2 " src="componentes/analise.png" alt="">
+        </div>
+    
+        </div>
+        <div id="Tres" class="banner invisivel">
+        <div class="textCar">
+          <h1 class="tittleDesc">Conecte-se
+            sem interrupção</h1>
+        <p class="textoDesc">
+          A telefonia faz parte do dia a dia das empresas, e você não pode 
+          ficar sem. Não perca nenhuma chamada com a telefonia em 
+          nuvem, atenda às ligações do seu ramal de mesa no caminho de
+          um compromisso ou em uma viagem de negócios no seu smartphone,
+           seja por redirecionamento ou pelo aplicativo (softphone).
+        </p> 
+        </div>
+        <div >
+            <img  class="FotoCar3" src="componentes/EXECUTIVO.png" alt="">
+    </div>
+        </div>
+        <div id="Quatro" class="banner invisivel">
+        <div class="textCar">
+          <h1 class="tittleDesc">Controle sua conta
+          </h1>
+        <p class="textoDesc">
+          Acompanhamos seu crescimento, fácil e simples, é o
+           que define a adição de novos usuários à sua conta.
+            Alterações estão sob seu controle e disponíveis sob
+             demanda. O console de administração on-line de
+              autoatendimento permite que você responda às
+              alterações em seus negócios e faça atualizações com
+               rapidez e facilidade 24 horas por dia, sete dias por semana.
+                Um time de suporte estará sempre disponível 
+                para te atender.
+        </p> 
+        </div>
+        <div >
+            <img  class="FotoCar4" src="componentes/controle.png" alt="">
+    </div>
+        </div>
+    </div>
+    <!-- lista com nuvem e imagem e texto -->  
+    <div class="conteinerLIST">
+        <div class="container-fluid divList">
+          <main class="row">
+            <div class="col-1 col-3 col-lg-2 col-xl-3 col-xxl-2 col-md-1 col-sm-1"></div>
+                <div id="textDiv" class="col-12 col-2 col-lg-3 col-xl-3 col-xxl-3 col-md-5 col-sm-2">
+                    <h1 class="tittleDesc2">Nossa solução é completa!</h1>
+                      <ul class="listIcon">
+                        <li style="display: flex; flex-direction : row;"><i class="bi bi-caret-right"></i><p class="textlist">Voz</p></li>
+                        <li style="display: flex; flex-direction : row;"><i class="bi bi-caret-right"></i><p class="textlist">Aparelho IP por ramal contratado</p></li>
+                        <li style="display: flex; flex-direction : row;"><i class="bi bi-caret-right"></i><p class="textlist">Softphone</p></li>
+                        <li style="display: flex; flex-direction : row;"><i class="bi bi-caret-right"></i><p class="textlist">PABX em nuvem</p></li>
+                        <li style="display: flex; flex-direction : row;"><i class="bi bi-caret-right"></i><p>Videoconferência</p></li>
+                      </ul>
+                      <p class="textspan">
+                        Sofisticado com <span style="color: white; font-size: 20px;">40 funções</span> essenciais para o seu dia a dia em uma <span style="color: white; font-size: 20px;">única assinatura.</span>
+                      </p>
+                </div>
+                <div class="col col-1 col-xl-1 col-xxl-1 col-md-1  col-sm-1"></div>
+                <div class="col col-5 col-xl-2 col-xxl-2 col-md-2  col-sm-2">
+                        <img  class="imagestyle"src="componentes/net2phone-nossa-solucao-e-completa (2).png" alt="">
+                </div>
+              <div class="col col-2 col-lg-2 col-xxl-3 col-xl-3 col-md-1  col-sm-1"></div>
+          </main>
+        </div>
+    </div>
+     <!--wave-->
+     <div>
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shape-rendering="auto"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g class="parallax">
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="0"
+            fill="rgba(255,255,255,0.7"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="3"
+            fill="rgba(255,255,255,0.5)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="5"
+            fill="rgba(255,255,255,0.3)"
+          />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--mais elemento informativo-->
+    <div class="conteinerHead2 container-fluid">
+      <main class="row">
+          <div class="col-1 col-lg-2  col-md-1 col-sm-1 col-xs-0 col-xxl-2 col-xl-2 "></div>
+          
+          <div class="col element1  col-md-4 col-sm-12 col-lg-4 col-xl-3 col-xxl-3">
+            <img class="womanModel"src="componentes/porque-net2phone-e-mais-confiavel.png" alt="">
+                 
+          </div>
+          
+          <div class="col-2 col-lg-2  col-md-2 col-sm-1 col-xl-2 col-xxl-1"></div>
+            <div class="col element2 col-md-4 col-sm-10 col-lg-4 col-xl-4 col-xxl-4">
+                
+              <p>
+                <h1 class="titulo size">Por que a telefonia em nuvem net2phone é a mais confiável?</h1>
+            </p>
+           <p class="texto">
+            Seja dentro do escritório, no home office de seus funcionários ou a caminho de uma reunião, nossa telefonia te proporcionará diversas vantagens ao seu negócio.
+            A telefonia em nuvem da net2phone FUNCIONA!
+           </p>
+
+           <ul style="
+           ">
+              <li class="list">Baixo custo</li>
+              <li class="list">Serviço confiável</li>
+              <li class="list">Características e flexibilidade</li>
+              <li class="list">Gestão online</li>
+              <li class="list">Correio de voz para e-mail</li>
+              <li class="list">Fila de chamadas</li>
+              <li class="list">Chamada ilimitada</li>
+              <li class="list">Video/web conferência</li>
+              <li class="list">Atendente automático</li>
+              <li class="list">Teleconferência</li>
+
+           </ul>
+           
+            </div>
+          <div class="col col-lg-2 col-md-1 col-sm-0 col-xs-0 col-xl-2"></div>
+      </main>
+  </div>
+  <div class="conteinerFour">
+      <div class="container-fluid">
+        <main class="row cardsIcon">
+            <div class=" col-lg-2 col-xl-2 col-md-1 col-xxl-2"></div>
+            
+            <div class="col-lg-2 col-xl-1 col-md-2 col-xxl-1 col-sm-3">
+                <div class="card2">
+                   <div>
+                        <img class="img2" src="componentes/operadora.png" alt="">
+                    </div>
+                   <div class="descCard">
+                      <h1 class="titulocard">OPERADORA
+                        LICENCIADA</h1>
+                      <p class="textCard">Por sermos uma operadora, a net2phone tem rota de chamada própria, 
+                        garantindo a qualidade das chamadas e baixo custo para nossos clientes. 
+                        Numeração própria com cód 26 para chamadas internacionais.</p>
+                   </div>
+                    
+                </div>
+                  
+            </div>
+            <div class="col-lg-1 col-xl-2 col-md-2 col-xxl-2 col-sm-1"></div>
+              <div class=" col-lg-2 col-xl-1 col-md-3 col-xxl-1 col-sm-3">
+                <div class="card2">
+                  <div class="card2">
+                    <div class="descCard">
+                         <img class="img2" src="componentes/suporte24horas.png" alt="">
+                     </div>
+ 
+                    <div>
+                       <h1 class="titulocard" >SUPORTE
+                        24/7</h1>
+                       <p class="textCard">Todos os nossos clientes recebem suporte premium, disponível 24/07, para manter seu negócio sempre conectado.</p>
+                    </div>
+                     
+                 </div>
+                </div>
+                     
+              </div>
+              <div class=" col-lg-1 col-xl-2 col-md-1  col-sm-1 col-xxl-2"></div>
+              <div class=" col-lg-3 col-xl-1 col-md-2 col-xxl-1 col-sm-3 ">
+        
+                <div class="card2">
+                  <div class="card2">
+                    <div  class="descCard">
+                         <img class="img2" src="componentes/ricoemfuncoes.png" alt="">
+                     </div>
+ 
+                    <div>
+                       <h1 class="titulocard" >RICO EM
+                        FUNÇÕES</h1>
+                       <p class="textCard">A net2phone oferece funções essenciais para aumentar a performance do seu negócio, trazendo sempre o de mais novo na telefonia em nuvem com atualiações sem custo para nossos clientes.</p>
+                    </div>
+                     
+                 </div>
+                </div>
+            
+              </div>
+            <div class=" col-lg-1 col-xl-2 col-md-2 col-xxl-2 "></div>
+        
+        </main>
+    </div>
+</div>
+
+
+
+
+        <div class="pcCom" id="pccom">
+          <div> <img class="logopc2"src="componentes/LOGOMARCA PCCOM PRO 2022 SEM FUNDO.png" alt=""></div>
+          <div class="textpc">
+            <p>A pc com pro é uma empresa de Infraestrutura digital para um mundo online nosso objetivo maior é levar soluções de tecnologia para a sua vida.</p>
+            <p>Acesse nosso site para mais informações!.</p>
+            
+          </div>
+            <div class="linkclass" >
+              <a class="linkButton" href="https://pccom.pro/">Ir para o site</a>
+            </div>
+            <div class="site-preview">
+                <iframe class="site-preview" width="1524" height="868" src="https://pccom.pro/" style="
+                border: 2px solid black;
+                position: relative; top: -250px;
+                -webkit-transform:scale(0.5);-moz-transform-scale(0.5);">
+                  
+                </iframe>
+            </div>
+             
+        </div>
+        
+        
+        
+      
+       
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    
+    <!-- Left -->
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+  <!-- Section: Links  -->
+  <section class="footer-div">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class=" fw-bold mb-4">
+            <p>Pccom Pro</p>
+          <p>
+             <a href="#pccom" style="text-decoration: none;">Sobre Nos </a>
+          </p>
+          <p>
+            <a href="https://pccom.pro/"  style="text-decoration: none;">Nosso Site</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Nav
+          </h6>
+          <p>
+            <a href="#head" class="text-reset">Inicio</a>
+          </p>
+          <p>
+            <a href="#pccom" class="text-reset">Pccom Pro</a>
+          </p>
+          <p>
+            <a href="#head" class="text-reset">Net2phone</a>
+          </p>
+          <p>
+            <a href="#forms" class="text-reset">Contatos</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+          <p><i class="fas fa-phone me-3 text-grayish"></i> +55 (92) 3995-0150</p>
+          <p><i class="fas fa-home me-3 text-grayish"></i> R.Prof.Márciano Armond , 929</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-grayish"></i>
+            comercial@pccom.pro
+          </p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    todos os direitos reservados a Pccom Pro © 2022 Copyright:
+    
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
